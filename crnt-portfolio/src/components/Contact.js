@@ -30,7 +30,7 @@ const Contact = () => {
             setButtonText('sending');
         
             try {
-                let response = await fetch("https://portfolio-backend-vert-gamma.vercel.app/", {
+                let response = await fetch("https://portfolio-backend-vert-gamma.vercel.app/contact", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json;charset=utf-8"
